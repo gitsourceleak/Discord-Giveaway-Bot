@@ -1,0 +1,102 @@
+# ===========================================================================
+# Giveaway Bot created by Ech 
+# This is a config file
+# Any questions to ask? Feel free to contact me!
+# ===========================================================================
+
+# ===========================================================================
+# BOT INFORMATION (IMPORTANT!)
+# You must not leave them as blank!
+# ===========================================================================
+
+BotName: "Giveaway Bot"
+Prefix: "e!"
+Token: ""
+
+# ===========================================================================
+# BOT ACTIVITY
+# You can set the status as "PLAYING" or "LISTENING" or "WATCHING"
+# ===========================================================================
+
+GameName: "Giveaways"
+Status: "WATCHING"
+
+# ===========================================================================
+#
+# Giveaway Commands
+#
+# ===========================================================================
+
+Create: "create"
+Delete: "delete"
+Reroll: "reroll"
+End: "end"
+ListGiveaways: "list"
+Start: "start"
+
+# ===========================================================================
+#
+# Giveaway Message Configurations
+#
+# ===========================================================================
+
+# Giveaway part (you can even change the language too!)
+
+giveaway: "🎉🎉 **GIVEAWAY** 🎉🎉"
+giveawayEnded: "🎉🎉 **GIVEAWAY ENDED** 🎉🎉"
+timeRemaining: "Time remaining: **{duration}**!"
+inviteToParticipate: "React with 🎉 to participate!"
+winMessage: "Congratulations, {winners}! You won **{prize}**!"
+embedFooter: "Giveaways"
+noWinner: "Giveaway cancelled, no valid participations."
+hostedBy: "Hosted by: {user}"
+winners: "winner(s)"
+endedAt: "Ended at"
+
+# Units part
+
+seconds: "seconds"
+minutes: "minutes"
+hours: "hours"
+days: "days"
+
+# Last chance part
+
+lastChanceEnabled: true
+content: '⚠️ **LAST CHANCE TO ENTER !** ⚠️'
+threshold: 10000
+embedColor: '#FF0000'
+
+# Bonus entries part 
+
+bonusEntriesRoleID: "716284598220226610"
+bonusEntries: 2
+
+# ===========================================================================
+#
+# Giveaway Default Settings
+#
+# ===========================================================================
+
+GiveawayEmbedColor: "#FF00FF"
+GiveawayEmbedColorEnd: "#FF0000"
+Reaction: "🎉"
+
+GiveawayPermission: "ADMINISTRATOR" # If you want to set to only giveaway admins, set the GiveawayPermission: VIEW_CHANNEL
+GiveawayAdminRoleID: "716284598220226610" # If you want to set only giveaway permission, set the roleid to your server default role id
+
+# ===========================================================================
+#
+# Giveaway (Start Command)
+#
+# ===========================================================================
+
+IncorrectGiveawayChannel: "Please mention a valid channel."
+IncorrectGiveawayDuration: "Please enter a valid giveaway duration."
+IncorrectGiveawayWinners: "Please enter a valid numbers of winners."
+StartGiveawayMessage: "Would you like to start a giveaway?"
+GiveawayPingChannel: "Alright, Please ping the channel."
+GiveawayDuration: "Alright Please enter the duration of giveaway."
+GiveawayWinners: "Sweet, please enter the numbers of winners."
+GiveawayPrize: "Sweet, please enter the prize of giveaway"
+GiveawayStarted: "The giveaway is now started!"
